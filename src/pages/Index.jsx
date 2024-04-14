@@ -1,4 +1,4 @@
-import { Box, Button, Container, Flex, Heading, Image, Input, Stack, Text } from "@chakra-ui/react";
+import { Box, Button, Container, Flex, Heading, Image, Input, Link, Stack, Text } from "@chakra-ui/react";
 import { FaSearch } from "react-icons/fa";
 
 const Index = () => {
@@ -21,7 +21,7 @@ const Index = () => {
               </Button>
             </Stack>
 
-            <Button colorScheme="teal" size="lg">
+            <Button as={Link} to="/developers" colorScheme="teal" size="lg">
               View Developer Listings
             </Button>
           </Box>
